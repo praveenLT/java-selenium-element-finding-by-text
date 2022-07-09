@@ -12,7 +12,12 @@
     ```
      install maven
     ```
-    
+### Finding element using Text
+
+To find element using text, the following can be done:
+```java
+WebElement e = driver.findElement(By.xpath("//*[text()='5 of 5 remaining']"));
+```
 ### Run your First Test
 1. Clone the Java-Selenium-Sample repository. 
 ```
